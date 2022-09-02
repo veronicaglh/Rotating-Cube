@@ -25,3 +25,23 @@ points = ['p1','p2','p3','p4','p5','p6','p7','p8']
 # Let us also put all 8 vertices into a list called vertices
 # We will assign a value to these vertices later on
 vertices = ['v1','v2','v3','v4','v5','v6','v7','v8']
+
+# This first loop is to assign the value for the vertices.
+# It will iterate through the loop and depending on the value of i it will assign a value to the vertex
+for i in range(9):
+    if i == 0:
+        vertices[i] = np.array([x, y, y])
+    if i == 1:
+        vertices[i] = np.array([x, x, y])
+    if i == 2:
+        vertices[i] = np.array([y, x, y])
+    if i == 3:
+        vertices[i] = np.array([y, y, y])
+    if i == 4:
+        vertices[i] = np.array([x, y, x])
+    if i == 5:
+        vertices[i] = np.array([x, x, x])
+    if i == 6:
+        vertices[i] = np.array([y, y, x])
+    if i == 7:
+        vertices[i] = np.array([y, x, x])
