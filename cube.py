@@ -3,6 +3,9 @@
 # In order to install these packages you can run this command on the terminal of your IDE
 # pip install pygame
 # pip install numpy
+# pip install PyOpenGL PyOpenGL_accelerate
+# pip install glfw
+
 
 # Import statements
 import pygame
