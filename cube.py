@@ -45,3 +45,9 @@ for i in range(9):
         vertices[i] = np.array([y, y, x])
     if i == 7:
         vertices[i] = np.array([y, x, x])
+
+# This second loop will give the value to the 8 points we stored in the list called points
+# It will iterate through the list called points then assigns the value
+for i in range(8):
+    # Using line equation to assign the value of the points
+    points[i] = np.add(np.multiply(x, vertices[i]), p0)
