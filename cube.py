@@ -51,3 +51,18 @@ for i in range(9):
 for i in range(8):
     # Using line equation to assign the value of the points
     points[i] = np.add(np.multiply(x, vertices[i]), p0)
+
+edges = (
+    (0, 1),
+    (0, 3),
+    (0, 4),
+    (2, 1),
+    (2, 3),
+    (2, 7),
+    (6, 3),
+    (6, 4),
+    (6, 7),
+    (5, 1),
+    (5, 4),
+    (5, 7)
+)
