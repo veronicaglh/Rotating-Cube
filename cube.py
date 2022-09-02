@@ -66,3 +66,11 @@ edges = (
     (5, 4),
     (5, 7)
 )
+
+def Cube():
+    glBegin(GL_LINES)
+    for edge in edges:
+        for vertex in edge:
+            glVertex3fv(vertices[vertex])
+
+    glEnd()
