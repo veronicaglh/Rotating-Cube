@@ -1,2 +1,2 @@
-###### This program will build a rotating cube using python
-###### Don't want to clone thi repo? You can view the output here: https://drive.google.com/file/d/18SrUMwlPslPF0I6GQN04Ul67rZL5GxcN/view?usp=sharing
+###### This program will build a rotating cube using Python.
+###### Don't want to clone this repo? You can view the output here: https://drive.google.com/file/d/18SrUMwlPslPF0I6GQN04Ul67rZL5GxcN/view?usp=sharing
